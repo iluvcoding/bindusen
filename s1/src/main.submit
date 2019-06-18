@@ -1,0 +1,17 @@
+Universe = vanilla
+
+Executable = main_bs1.py
+
+Error = job.error
+Output = job.output
+Log = job.log
+
+priority = -1
+on_exit_remove = false
+cron_minute = *
+cron_hour = */12
+cron_day_of_month = *
+cron_month = *
+cron_day_of_week = *
+
+Queue 1
